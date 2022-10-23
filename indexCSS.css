@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ---------------------------------------------------- */
+
+/* 上方標題列 */
+.navBar {
+    list-style-type: none;
+    text-align: center;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    font-size: 20px;
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navBar li:hover {
+    background-color: #656565;
+}
+
+.navBar li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+
+
+
+
+/* 側邊標題欄 */
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 101;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* 肌群介紹grid */
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.grid_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.grid_item h3 a{
+    text-decoration: none;
+}
+
+/* 11. (link) 設定超連結未連結時的顏色 YellowGreen */
+.grid_item h3 a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+/* 12. (visited) 設定超連結已連結過的顏色 LightCoral */
+.grid_item h3 a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+/* 13. (hover) 設定滑鼠移至連結上方時的顏色 LightSkyBlue */
+.grid_item h3 a:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+/* 14. (active) 設定超連結點選連結當下的顏色 black */
+.grid_item h3 a:active {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* .grid_img1,
+.grid_img2,
+.grid_img3,
+.grid_img4,
+.grid_img5,
+.grid_img6 {
+    height: 400px;
+    background-color: aquamarine;
+    background-size: cover;
+} */
+/* .grid_img1 {
+    background-image: url("./imgs/chest_1.jpg");
+}
+.grid_img2 {
+    background-image: url("./imgs/back_1.jpg");
+}
+.grid_img3 {
+    background-image: url("./imgs/leg_1.jpg");
+}
+.grid_img4 {
+    background-image: url("./imgs/shoulder_1.jpg");
+}
+.grid_img5 {
+    background-image: url("./imgs/core_1.jpg");
+}
+.grid_img6 {
+    background-image: url("./imgs/arm_1.jpg");
+} */
+
+
+.home,
+.muscle,
+.BMR,
+.TDEE {
+    background-color: rgb(234, 195, 78);
+    height: 500px;
+    position: relative;
+}
+
+/* .home_content,
+.muscle_content,
+.BMR_content,
+.TDEE_content,
+.table_content {
+    background-color: rgb(246, 231, 137);
+    padding-top: 1px;
+} */
+
+
+#home_title,
+#muscle_title,
+#BMR_title,
+#TDEE_title {
+    height: fit-content;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+    font-size: 300%;
+}
+
+
+
+#home_img {
+    /* background-color: lightgreen; */
+    background-image: url("./imgs/home_2.jpg");
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+
+#muscle_img {
+    /* background-color: lightgreen; */
+    background-image: url("./imgs/muscle_2.jpg");
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+    background-repeat: no-repeat;
+}
+
+#BMR_img {
+    /* background-color: lightgreen; */
+    background-image: url("./imgs/BMR_2.jpg");
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+
+#TDEE_img {
+    /* background-color: lightgreen; */
+    background-image: url("./imgs/TDEE_2.jpg");
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+
+.home_benefit {
+    color: blue;
+}
+
+
+
+
+/* TDEE表格 */
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: paleturquoise;
+}
+
+th,
+td {
+    border: 3px solid black;
+    text-align: center;
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+}
+
+
+/* 頁尾 */
+footer {
+    background-color: rgb(3, 3, 75);
+    padding-top: 1px;
+    text-align: center;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+footer>div a img {
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+footer p:hover {
+    color: blueviolet;
+    transition: 1s;
+}

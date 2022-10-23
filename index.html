@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Training</title>
+    <link rel="icon" href="./imgs/weight.png" type="image/jpg" sizes="16x16">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <link rel="stylesheet" href="./indexCSS.css">
+    <script src="./_js/jquery-3.6.0.js"></script>
+
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- 上方標題欄 -->
+
+    <nav class="navBar" id="navBar">
+        <ul>
+            <li id="home_nav"><a href="#home" onclick="openNav()">首頁</a></li>
+            <li id="muscle_nav"><a href="#muscle">肌群介紹</a></li>
+            <li id="BMR_nav"><a href="#BMR">BMR計算</a></li>
+            <li id="TDEE_nav"><a href="#TDEE">TDEE計算</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <!-- 側邊標題欄 -->
+
+    <!-- <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#navBar">首頁</a>
+        <a href="#muscle">肌群介紹</a>
+        <a href="#BMR">BMR計算</a>
+        <a href="#TDEE">TDEE計算</a>
+    </div> -->
+
+
+
+
+    <!-- 網頁內容 -->
+
+    <div style="margin-top: 90px; background-color:burlywood;">
+
+        <!-- 首頁 -->
+
+        <div class="home" id="home">
+            <div id="home_title">
+                <p>重量訓練</p>
+            </div>
+            <div id="home_img">
+                首頁標題的圖片
+            </div>
+        </div>
+
+        <div class="home_content" style="padding-left:16px; padding-right:16px; ">
+            <h3>
+                健身常聽到的重訓其實為重量訓練(Weight training)的簡稱，透過負重讓身體不同部位的骨骼肌產生力量對抗重力，讓肌肉得到刺激與鍛鍊。重訓不只是單一運動，而是一個全方位的運動科學。
+                <br><br>
+                針對不同的部位擁有不同的訓練動作，除了瘦身改善體態之外，對於體內也能提升肌耐力、肌力、爆發力...等功效！從重訓用來幫助訓練運動員、軍人，普及至今也逐漸變成我們日常運動的訓練方式之一。
+                <br><br>
+                各種健康和健身專家表示，重量訓練對每個人來說都是必不可少的，可以做為你計劃進行的任何鍛煉和健身計劃的重要組成。 重訓通常著重增強肌肉、撕裂肌肉和平坦腹部，但實際上它的作用遠不止於此。
+                <br><br>
+                為了改善你的外表和減肥你努力的運動，重訓＋有氧甚至加上高強度訓練，如果你已經達到目標，很恭喜，但要提醒別太過放鬆搞到打回原形，像是體豬反彈變身形和皮膚鬆鬆垮垮的泡芙人。<br>
+                這種特殊類型的訓練，包括體重鍛煉、啞鈴、機器、壺鈴和其他設備，它還有助於防止你失去肌肉質量，並讓你執行日常任務更為容易，例如輕而易舉的將裝得滿滿滿的購物袋從車上抬到家中，或是在打掃時輕巧地舉起家裡的某件大家具。
+                <br><br>
+                一直持續不綴地鍛鍊，最終能把自己練成洛基，這是重訓作用的神話，不必想太多，一般人的生活或職場裡也不需要健美先生的存在，但至少你的肌肉質量可以獲得保證，這點絕對沒有爭議。
+                <br><br>
+            </h3>
+
+            <h1>重量訓練的五個好處 快點開始動起來吧!</h1>
+
+            <h2 class="home_benefit">好處1.有效燃燒卡路里</h2>
+            <h3>據專家指稱，完全不運動的成年人每十年會損失大約 8% 的肌肉量，這意味著每天燃燒的卡路里數量也會大幅下降，更糟的是，同時這也會導致體重增加，即使你沒有吃更多的垃圾食品。
+                <br><br>
+                重量訓練對於燃燒足夠的卡路里至關重要，因為它可以逆轉肌肉損失並幫助你獲得肌肉，從而提高你的基礎代謝率並幫助你在沒多做什麼事的情況下全天燃燒更多的卡路里。
+            </h3>
+
+            <h2 class="home_benefit">好處2.降低受傷的風險</h2>
+            <h3>這種類型的訓練有助於糾正你個人某些習慣性動作或姿勢可能存在的任何肌肉失衡，除了鍛煉你的活動力和力量外，尤其是有助於隨著年齡的增長而保持基本盤，避免受傷甚至跌倒。根據一項研究顯示，綜合性的重量訓練可以將受傷風險降低多達
+                66%，跌倒風險降低 34%。</h3>
+
+            <h2 class="home_benefit">好處3.有益心臟健康</h2>
+            <h3>心臟病和中風每年導致全世界數百萬人死亡。定期進行重量訓練有助於控制血壓、膽固醇和血糖，這讓你的心臟得以保持強壯和健康。
+                <br><br>
+                想要更準確的數字來振奮你動起來嗎？2019 年的一項研究甚至發現，通過定期進行至少一小時的重量訓練，可以將心臟病發作的風險降低 40~70%。美國心臟協會甚至建議你每周至少進行兩次重量訓練。
+            </h3>
+
+            <h2 class="home_benefit">好處4.打造更強壯的骨骼</h2>
+            <h3>配合良好的飲食，這種訓練可以降低骨質疏鬆症和骨折的風險，這是因為當你這樣做時，骨骼會受到壓力，身體會有意識必須去修復它們，而當這種情況發生時，你的骨骼會變得更強壯和更有抵抗力。每週兩次30分鐘的重量運動，持續一段時間後足以看到良好的效果。
+            </h3>
+
+            <h2 class="home_benefit">好處5.提升你的心理健康</h2>
+            <h3>保持活躍和鍛煉的另一個重要原因是維持你的心理健康。許多研究表明，運動對你的思想、情緒和認知能力有很多好處，同時也對你的自尊（練出好身材以及保持標準體重）和自信心（外表更挺拔及穿衣更有型）有作用。此外，一些研究表明，硬舉可以減輕壓力和焦慮，以及抑鬱症狀。
+            </h3>
+
+            <br><br>
+        </div>
+
+
+
+
+        <!-- 肌群介紹 -->
+
+        <div class="muscle" id="muscle">
+            <div id="muscle_title">
+                <p>肌群介紹</p>
+            </div>
+            <div id="muscle_img">
+                肌群介紹標題的圖片
+            </div>
+        </div>
+
+        <div class="muscle_content" style="padding-left:16px; padding-right:16px; ">
+
+            <br><br><br>
+            <div class="grid_container">
+                <div class="grid_item">
+                    <div>
+                        <div><img src="./imgs/chest_1.jpg" alt="" style="width: 100%;"></div>
+                        <h3><a href="https://youtu.be/9r3Lc2Mztio">胸部肌群</a></h3>
+                        <h4>胸部肌群主要是由胸大肌與胸小肌所組成。
+                            <br><br>
+                            胸肌的主要功能為肩部橫向內收（像飛鳥一樣將上臂穿過身體朝向中線），以及肩膊向前提高。
+                            <br>
+                            由於纖維的運行方式，向上傾斜或窄握的臥推角度針對更多的上胸肌。而當使用寛握卧推和平坦或下斜的板凳角度時，會使用更多的中、下胸肌。
+                        </h4>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div>
+                        <div><img src="./imgs/back_1.jpg" alt="" style="width: 100%;"></div>
+                        <h3><a href="https://youtu.be/a8zviKIB9DM">背部肌群</a></h3>
+                        <h4>背部肌群主要是由闊背肌、豎脊肌與斜方肌所組成。
+                            <br><br>
+                            背肌的主要角色在於支撐身體上半身及肩頸的運動，強健的背部肌肉群可以幫助我們維持比較好的身體姿勢，進而減少彎腰駝背或是背部及肩頸疼痛的問題。
+                        </h4>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div>
+                        <div><img src="./imgs/leg_1.jpg" alt="" style="width: 100%;"></div>
+                        <h3><a href="https://youtu.be/9OqYm6BSHxQ">臀腿肌群</a></h3>
+                        <h4>臀腿肌群可以分為腿前側、腿後側、臀部、小腿。
+                            <br><br>
+                            腿部是全身最大的肌群，也是力量的根基，把它訓練好可以避免受傷、提升運動表現、幫助上半身肌肉成長。
+                        </h4>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div>
+                        <div><img src="./imgs/shoulder_1.jpg" alt="" style="width: 100%;"></div>
+                        <h3><a href="https://youtu.be/cUq14WqjYEI">肩部肌群</a></h3>
+                        <h4>肩部肌群主要有三角肌以及斜方肌所構成。
+                            <br><br>
+                            肩膀肌肉所伴隨的是手臂運動與上身的活動；因為肩部關節的構造功能，原本就為了活動度與運用性，而呈現比較鬆弛以利運動的狀態。
+                        </h4>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div>
+                        <div><img src="./imgs/core_1.jpg" alt="" style="width: 100%;"></div>
+                        <h3><a href="https://youtu.be/v0b5HO1ozWQ">核心肌群</a></h3>
+                        <h4>核心肌群主要是由腹內斜肌、腹外斜肌以及腹直肌所構成。
+                            <br><br>
+                            核心是負責穩定好身體軀幹、動作姿勢的第一線。其實核心不是單純只有肚子區間的肌肉，較為正確的定義，凡是能穩定軀幹、負責保護脊椎提供脊椎足夠的支撐力的肌群，都稱之為核心肌群。
+                        </h4>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div>
+                        <div><img src="./imgs/arm_1.jpg" alt="" style="width: 100%;"></div>
+                        <h3><a href="https://youtu.be/AV3QWOwp7ZI">手臂肌群</a></h3>
+                        <h4>手臂肌群可以分為肱二頭肌以及肱三頭肌。
+                            <br><br>
+                            肱二頭肌和肱三頭肌互為結抗肌群，手臂伸直三頭肌控制；手臂彎曲二頭肌主導。主要功能是手臂對於外物的推撐用力作用，以及協助上半身對外界的運動。
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+        </div>
+
+
+
+
+
+
+        <!-- BMR -->
+
+        <div class="BMR" id="BMR">
+            <div id="BMR_title">
+                <p>BMR計算</p>
+            </div>
+            <div id="BMR_img">
+                BMR計算標題的圖片
+            </div>
+        </div>
+
+        <div class="BMR_content" style="padding-left:16px">
+
+            <h1>BMR基礎代謝率介紹</h1>
+
+            <h2 style="color: blue;">基礎代謝率 BMR（Basal Metabolic Rate）</h2>
+            <h3>
+                基礎代謝的意思是<span style="color: red;">身體為了要維持運作</span>，在休息時消耗掉的熱量。
+                <br><br>
+                基礎代謝率佔了總熱量消耗的一大部分，大約65-75%左右。
+                <br>
+                會影響到基礎代謝率高低的有很多，像是<span style="color: red;">總體重、肌肉量、賀爾蒙、年齡</span>等。
+            </h3>
+            <br><br>
+            <h3 style="color: green;">簡單評估自己的基礎代謝率</h3>
+
+            <div style="font-size: 20px;">
+                <label for="BMR_tall">身高(公分) : </label>
+                <input type="number" id="BMR_tall">
+                <br><br>
+                <label for="BMR_weight">體重(公斤) : </label>
+                <input type="number" id="BMR_weight">
+                <br><br>
+                <label for="BMR_age">年齡 : </label>
+                <input type="number" id="BMR_age">
+                <br><br>
+
+                <span>性別 : </span>
+                <input name="gender" type="radio" id="male" value="male" checked>
+                <label for="male">男</label>
+                <input name="gender" type="radio" id="female" value="female">
+                <label for="female">女</label>
+
+            </div>
+
+            <br><br><br>
+
+            <button onclick="BMR_cal()" style="font-size: 20px;">BMR計算</button>
+
+            <br><br><br>
+            <p id="BMR_result" style="font-size: 30px;">您的基礎代謝率 : </p>
+            <br><br><br>
+
+            <h4>
+                男性：基礎代謝率 = (10 × 公斤體重) + (6.25 × 公分身高) - (5 × 年齡歲數) + 5
+                <br>
+                女性：基礎代謝率 = (10 × 公斤體重) + (6.25 × 公分身高) - (5 × 年齡歲數) – 161
+                <br>
+                (根據Mifflin-St Jeor Equation公式計算)
+            </h4>
+        </div>
+
+
+
+
+
+
+        <!-- TDEE -->
+
+        <div class="TDEE" id="TDEE">
+            <div id="TDEE_title">
+                <p>TDEE計算</p>
+            </div>
+            <div id="TDEE_img">
+                TDEE計算標題的圖片
+            </div>
+        </div>
+
+        <div class="TDEE_content" style="padding-left:16px">
+
+            <h1>TDEE總熱量消耗介紹</h1>
+
+            <h2 style="color: blue;">總熱量消耗 TDEE ( Total Daily Energy Expenditure )</h2>
+            <h3>
+                <span style="color: red;">身體一整天所消耗掉的熱量。</span>
+                <br><br>
+                也可以理解為<span style="color: red;">維持體重</span>的熱量，
+                因為當攝取的卡路里 = TDEE，體重會維持不變。
+                <br>
+                總熱量消耗 = 基礎代謝＋運動消耗＋產熱消耗。
+            </h3>
+
+            <br><br>
+
+            <div style="font-size: 20px;">
+                <label for="weekly_activity">日常活動量 :</label>
+                <select name="weekly_activity" id="weekly_activity" style="font-size: 20px;">
+                    <option value="activity_0">沒啥運動...</option>
+                    <option value="activity_3">每周運動1-3天</option>
+                    <option value="activity_5">每周運動3-5天</option>
+                    <option value="activity_7">每周運動6-7天</option>
+                    <option value="activity_99">無時無刻都在動!?</option>
+                </select>
+            </div>
+            <p id="BMR_result2" style="font-size: 20px;">基礎代謝率 : </p>
+
+            <br><br><br>
+
+            <button onclick="TDEE_cal()" style="font-size: 20px;">TDEE計算</button>
+
+            <br><br><br>
+            <p id="TDEE_result" style="font-size: 30px;">您的TDEE : </p>
+            <br><br><br>
+
+            <h2>TDEE評估標準</h2>
+        </div>
+
+        <div class="table_content">
+            <table>
+                <tr>
+                    <th>活動量</th>
+                    <th>活動量描述</th>
+                    <th>TDEE計算方法</th>
+                </tr>
+                <tr>
+                    <td>久坐</td>
+                    <td>沒啥運動</td>
+                    <td>TDEE = BMR x 1.2</td>
+                </tr>
+                <tr>
+                    <td>輕度活動量</td>
+                    <td>每周運動1-3天</td>
+                    <td>TDEE = BMR x 1.375</td>
+                </tr>
+                <tr>
+                    <td>中度活動量</td>
+                    <td>每周運動3-5天</td>
+                    <td>TDEE = BMR x 1.55</td>
+                </tr>
+                <tr>
+                    <td>高度活動量</td>
+                    <td>每周運動6-7天</td>
+                    <td>TDEE = BMR x 1.725</td>
+                </tr>
+                <tr>
+                    <td>非常高度活動量</td>
+                    <td>無時無刻都在運動</td>
+                    <td>TDEE = BMR x 1.9</td>
+                </tr>
+            </table>
+        </div>
+
+        <br><br><br>
+
+
+    </div>
+
+    <footer>
+        <br><br><br>
+        <p>WEIGHT TRAINING</p>
+        <br><br><br>
+        <div>
+            <a href="https://www.instagram.com/accounts/login/?next=/peeta.gege/">
+                <img src="./imgs/instagram.png" alt="">
+            </a>
+            <a href="https://zh-tw.facebook.com/groups/bodybuilding.tw/about">
+                <img src="./imgs/facebook.png" alt="">
+            </a>
+            <a href="https://linevoom.line.me/user/_dV9Q4LdCifgKe_7CLbmgIKhLpUo1Tgf5gXFzf2c">
+                <img src="./imgs/line.png" alt="">
+            </a>
+            <a href="https://youtu.be/R0C-S9ZOhzE">
+                <img src="./imgs/youtube.png" alt="">
+            </a>
+        </div>
+
+        <!-- 版權申明 -->
+        <br><br><br>
+        <p>Copyright @ 2022</p>
+        <br><br><br>
+
+    </footer>
+
+
+
+
+    <script>
+        // // 側邊標題的JS
+        // /* Set the width of the side navigation to 250px */
+        // function openNav() {
+        //     document.getElementById("mySidenav").style.width = "250px";
+        // }
+
+        // /* Set the width of the side navigation to 0 */
+        // function closeNav() {
+        //     document.getElementById("mySidenav").style.width = "0";
+        // }
+
+
+        // BMR計算
+        function BMR_cal() {
+            var elm = document.getElementById("BMR_result");
+            var elm2 = document.getElementById("BMR_result2");
+            elm.innerText = "您的基礎代謝率 :"  // 先把前次結果清空
+            elm2.innerText = "基礎代謝率 :"  // 先把前次結果清空
+
+            var temp = $("input[name=gender]:checked").val();
+            var t = document.getElementById("BMR_tall").value;
+            var w = document.getElementById("BMR_weight").value;
+            var a = document.getElementById("BMR_age").value;
+            // console.log(temp);  // 測試是否有抓到使用者選擇的性別
+
+            if (temp == "male") {
+                var result = (w * 10) + (t * 6.25) - (a * 5) + 5;
+            } else {
+                var result = (w * 10) + (t * 6.25) - (a * 5) - 161;
+            };
+
+            // console.log(result);  // 測試計算結果
+            elm.innerText += " " + result.toFixed(2).toString();
+            elm2.innerText += " " + result.toString();
+        }
+
+
+        // TDEE計算
+        function TDEE_cal() {
+            var w_act = document.getElementById("weekly_activity").value;
+            // console.log(w_act);  // 測試是否有抓到使用者選擇
+            var elm_TDEE = document.getElementById("TDEE_result");
+            var elm_BMR = document.getElementById("BMR_result2").innerText;
+            // console.log(elm_BMR.length);
+            elm_TDEE.innerText = "您的TDEE :";
+
+            if (elm_BMR.length == 7) {
+                alert("請先計算基礎代謝率!");
+            } else {
+                var temp = parseInt(elm_BMR.substring(8));
+                // console.log(temp);  // 確認有抓到BMR
+                switch (w_act) {
+                    case "activity_0":
+                        elm_TDEE.innerText += " " + (temp * 1.2).toFixed(2).toString();
+                        break;
+                    case "activity_3":
+                        elm_TDEE.innerText += " " + (temp * 1.375).toFixed(2).toString();
+                        break;
+                    case "activity_5":
+                        elm_TDEE.innerText += " " + (temp * 1.55).toFixed(2).toString();
+                        break;
+                    case "activity_7":
+                        elm_TDEE.innerText += " " + (temp * 1.725).toFixed(2).toString();
+                        break;
+                    case "activity_99":
+                        elm_TDEE.innerText += " " + (temp * 1.9).toFixed(2).toString();
+                        break;
+                }
+            }
+        }
+
+
+
+        // 畫面滑動
+
+        $('#home_nav').click(function () {
+            $('html, body').animate({ scrollTop: $('#home').offset().top }, 800);
+        });
+        $('#muscle_nav').click(function () {
+            $('html, body').animate({ scrollTop: $('#muscle').offset().top }, 800);
+        });
+        $('#BMR_nav').click(function () {
+            $('html, body').animate({ scrollTop: $('#BMR').offset().top }, 800);
+        });
+        $('#TDEE_nav').click(function () {
+            $('html, body').animate({ scrollTop: $('#TDEE').offset().top }, 800);
+        });
+
+
+    </script>
+
+</body>
+
+</html>
